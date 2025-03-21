@@ -3,8 +3,11 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'*/
 import './App.css'
 import Profile from './profile/Profile.jsx';
+import FriendList from './friendlist/FriendList.jsx';
+import TransactionHistory from './transactionhistory/TransactionHistory.jsx'
 import userData from '../userData.json'
 import friends from '../friends.json'
+import transactions from '../transactions.json'
 /*function App() {
   const [count, setCount] = useState(0)
 
@@ -46,6 +49,8 @@ export default function App () {
           image={userData.avatar}
           stats={userData.stats}
         />
+        <FriendList friends={friends} /> 
+        <TransactionHistory items={transactions} />
       </>
     );
   };
