@@ -1,7 +1,20 @@
-.online {
+  .statusText {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .onlineText {
     color: green;
   }
   
-  .offline {
+  .offlineText {
     color: red;
+  }
+  .imgItem {
+    width: 100px;
+    height: 100px;
+  }
+  .nameItem {
+    font-size: 30px;
+    margin: 10px 0;
   }
